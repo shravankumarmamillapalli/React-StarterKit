@@ -1,0 +1,32 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "expect": true,
+    "sinon": true,
+    "chai": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "promise",
+    "standard",
+    "react"
+  ]
+}
